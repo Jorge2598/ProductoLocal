@@ -1,0 +1,106 @@
+#ribbon{
+    background-color:rgba(99, 48, 240, 0.767);
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(99, 48, 240, 0.767) 25px,rgba(99, 48, 240, 0.767)40px);
+}
+
+#ribbon::after{
+    content: '';
+    background-color: transparent;
+    display: block;
+    height: 20px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+    margin-top: -40px;
+}
+#birthday{
+    background-color: rgba(99, 48, 240, 0.767);
+    position: relative;
+    margin-top: -20px;
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+#birthdat img{
+    position: relative;
+    margin-top: -30px;
+}
+.text-shadow{
+    text-shadow: 0 3px 3px rgba(0,0,0,0.5);
+}
+#separator-ribbon{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+#separator-ribbon .content{
+    width: 150%;
+    height: 150px;
+    margin-left: -25%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.card-border{
+    border: solid 10px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+.card-border:hover{
+    transform: scale(1.05);
+}
+#games{
+    background: rgba(255,255,255);
+    background:linear-gradient(0deg,rgba(255,255,255) 0%, rgba(99, 48, 240, 0.767) 57%);
+    background-repeat: repeat-x;
+    background-size: 75%;
+    margin-top: -20px;
+}
+#footer{
+    background-color: rgba(99, 48, 240, 0.568);
+    background-size: 50px 50px;
+}
+#nav{ 
+    background-color: rgba(99, 48, 240, 0.767);
+    background-size: 50px 50px;
+}
+#mainSlider{
+    width: 100%;
+    height: 90%;
+}
+.Social{
+    position: fixed;
+    left: -30px;
+    top: 200px;
+    z-index: 2000; 
+}
+.Social ul{
+    list-style: none;
+}
+.Social ul li a{
+    display: inline-block;
+    color: white;
+    background: #000;
+    padding: 20px 15px;
+    text-decoration: none;
+    -o-transition:500ms ease;
+    -webkit-transition:500ms ease;
+    transition:500ms ease;
+}
+.Social ul li .icon-facebook2{background:#3b5998}
+.Social ul li .icon-instagram{background:#125688;}
+.Social ul li .icon-youtube{background:#bb0000;}
+.Social ul li .icon-twitter{background:#55acee;}
+.Social ul li .icon-google2{background:#4285f4;}
+.Social ul li .icon-whatsapp{background:#4dc247;}
+
+.Social ul li a:hover{
+    padding: 20px 40px;
+}
+#descripcion{
+    margin: 0;
+}
+#navbarSupportedContent{
+    padding: 25px;
+}
